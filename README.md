@@ -1,8 +1,8 @@
 # Convert Timetable
 
-This project takes a JSON file produced by SITS and imports it to Google Calendar, JSON is found by viewing source of the calendar page
+This project takes a JSON file produced by MyStudentRecord and imports it to Google Calendar, JSON is found by viewing source of the calendar page
 
-Why? Because Google Calendar is easier and the Uni doesn't provide any other way.
+Why? Because Google Calendar is easier and the Uni doesn't provide any other way (didn't).
 
 Requirements:
  * JSON saved as timetable.json (an Array)
@@ -13,5 +13,3 @@ How to use once configured:
  * git clone git@github.com:LukeT/ConvertTimetable.git
  * npm install
  * node .
-
-***This may require modifications depending on university (Likely lib/timetableEntry.js). No way to test with others :P***
